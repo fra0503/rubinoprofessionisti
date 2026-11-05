@@ -1,0 +1,18 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://*.supabase.co; connect-src 'self' https://*.supabase.co; base-uri 'self'; form-action 'self'; object-src 'none'"><meta name="referrer" content="no-referrer"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#1B2A3F"><meta name="robots" content="noindex"><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/assets/rubino-mark.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/css/rubino.css?v=4"><title>Attiva il tuo account — Rubino Rete Professionisti</title></head><body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<div class="auth"><aside class="auth-brand"><img class="auth-logo" src="/assets/rubino-logo-originale.png" alt="Rubino Immobiliare — Il valore della tua casa"><h2>Le opportunità nascono dalle connessioni giuste.</h2><p>RETE PROFESSIONISTI</p></aside>
+<main class="auth-panel" id="main"><div class="auth-card">
+  <p class="eyebrow">Invito riservato</p><h1>Attiva il tuo account</h1>
+  <p class="lead" id="lead">Verifica dell'invito in corso…</p>
+  <div id="msg" role="alert" hidden></div>
+  <form id="form" novalidate hidden>
+    <div class="field"><label for="name">Nome</label><input id="name" readonly></div>
+    <div class="field"><label for="email">Email</label><input id="email" readonly autocomplete="username"></div>
+    <div class="field"><label for="pw">Scegli una password</label><input id="pw" type="password" autocomplete="new-password" minlength="10" required></div>
+    <p class="hint">Almeno 10 caratteri.</p>
+    <div class="field"><label for="pw2">Ripeti la password</label><input id="pw2" type="password" autocomplete="new-password" required></div>
+    <button class="btn btn-primary" style="width:100%" type="submit" id="btn">Attiva l'account</button>
+  </form>
+  <p class="auth-foot" id="done" hidden><a class="btn btn-primary" href="/accesso">Vai all'accesso</a></p>
+</div></main></div>
+<script type="module" src="/js/attiva.js?v=4"></script></body></html>
